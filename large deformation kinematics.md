@@ -156,7 +156,7 @@ $$ W = \frac{1}{2} \mu (I_1 - 3) - \mu \ln J + \frac{1}{2} \lambda \Theta(J)^2 $
 
 消除体积变形对剪切能的耦合，具体过程：
 
-1. 当材料发生纯体积变形F = J1/3I（即等容变形梯度$\mathbf{\bar{F} = I}$），此时：
+1. 当材料发生纯体积变形$\mathbf{F}$ = J^{1/3}I（即等容变形梯度$\mathbf{\bar{F} = I}$），此时：
    $$
    I_1 = \mathrm{tr}(\mathbf{C}) = \mathrm{tr}(\mathbf{F^\top F}) = J^{2/3} \mathrm{tr}(\mathbf{I}) = 3J^{2/3}
    $$
