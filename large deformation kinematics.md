@@ -122,11 +122,11 @@ $$
 
 在3D中广泛使用的能量密度之一，由以下公式给出：
 
-```math
-W = \underbrace{\frac{1}{2} \mu (I\_1 - 3)}\_{\text{经典剪切项}} 
-- \underbrace{\mu \ln J}\_{\text{修正项}} 
-+ \underbrace{\frac{1}{2} \lambda \Theta(J)^2}\_{\text{体积项}}
-```
+$$ W = \frac{1}{2} \mu (I_1 - 3) - \mu \ln J + \frac{1}{2} \lambda (\Theta(J))^2 $$
+
+- 经典剪切项（第一项）：$\frac{1}{2} \mu (I_1 - 3)$
+- 修正项（第二项）：$-\mu \ln J$  
+- 体积项（第三项）：$\frac{1}{2} \lambda (\Theta(J))^2$
 
 其中：
 
