@@ -126,17 +126,17 @@ $$
 W = \underbrace{\frac{1}{2} \mu (I\_1 - 3)}\_{\text{经典剪切项}} 
 - \underbrace{\mu \ln J}\_{\text{修正项}} 
 + \underbrace{\frac{1}{2} \lambda \Theta(J)^2}\_{\text{体积项}}
-\$$
-
+\
+$$
 
 其中：
 
-- $\lambda,\mu$: 拉梅常数，分别对应材料的体积模量和剪切模量
-- $I_1 = \mathrm{tr}(\mathbf{C})$；右柯西-格林张量 $C = F^\top F$ 的第一不变量（迹）
-- $J = \det \mathbf{F} = \sqrt{\det \mathbf{C}}$，变形梯度 $\mathbf{F}$ 的行列式，表示体积变化率
-- $\Theta(J)$ 需满足两个条件的平滑函数：
-  1. $\Theta(J) = 0$ 当且仅当 $J = 1$（体积无变化时函数值为零）
-  2. $\Theta'(J) \neq 0$（函数在 $J=1$ 处导数非零）
+- \$\lambda, \mu\$: 拉梅常数，分别对应材料的体积模量和剪切模量
+- \$I\_1 = \mathrm{tr}(\mathbf{C})\$；右柯西-格林张量 \$\mathbf{C} = \mathbf{F}^\top \mathbf{F}\$ 的第一不变量（迹）
+- \$J = \det \mathbf{F} = \sqrt{\det \mathbf{C}}\$，变形梯度 \$\mathbf{F}\$ 的行列式，表示体积变化率
+- \$\Theta(J)\$ 需满足两个条件的平滑函数：
+  1. \$\Theta(J) = 0\$ 当且仅当 \$J = 1\$（体积无变化时函数值为零）
+  2. \$\Theta'(J) \neq 0\$（函数在 \$J=1\$ 处导数非零）
 
 ---
 
