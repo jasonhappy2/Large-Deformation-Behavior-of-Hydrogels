@@ -126,8 +126,8 @@ $$
 W = \underbrace{\frac{1}{2} \mu (I\_1 - 3)}\_{\text{经典剪切项}} 
 - \underbrace{\mu \ln J}\_{\text{修正项}} 
 + \underbrace{\frac{1}{2} \lambda \Theta(J)^2}\_{\text{体积项}}
-\
-$$
+\$$
+
 
 其中：
 
