@@ -121,11 +121,12 @@ $$
 #### 可压缩Neo-Hookean model 模型1
 
 在3D中广泛使用的能量密度之一，由以下公式给出：
-
+\
 $$
 W = \underbrace{\frac{1}{2} \mu (I_1 - 3)}_{\text{经典剪切项}} 
 - \underbrace{\mu \ln J}_{\text{修正项}} 
 + \underbrace{\frac{1}{2} \lambda \Theta(J)^2}_{\text{体积项}}
+\
 $$
 
 其中：
