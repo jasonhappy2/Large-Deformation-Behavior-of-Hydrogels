@@ -124,7 +124,7 @@ $$
 
 $$ W = \frac{1}{2} \mu (I_1 - 3) - \mu \ln J + \frac{1}{2} \lambda \Theta(J)^2 $$
 
--  经典剪切项（第一项）$$ W = \frac{1}{2} \mu (I_1 - 3) - \mu \ln J + \frac{1}{2} \lambda \Theta(J)^2 $$
+-  经典剪切项（第一项）\$W = \frac{1}{2} \mu (I_1 - 3) - \mu \ln J + \frac{1}{2} \lambda \Theta(J)^2\$
 -  修正项（第二项）
 -  体积项（第三项）
 
