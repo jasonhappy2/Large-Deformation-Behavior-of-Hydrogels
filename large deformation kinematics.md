@@ -219,8 +219,8 @@ $$
 
 **推导依据**：
 
-1. 体积变化率$J = \det(\mathbf{F})$
-2. 均匀膨胀时$\mathbf{F}$为各向同性张量,
+1. 体积变化率 $J = \det(\mathbf{F})$
+2. 均匀膨胀时 $\mathbf{F}$ 为各向同性张量,
 3. $\det(\mathbf{F}) = \lambda^3 \Rightarrow \lambda = J^{1/3}$
 
 **步骤2：计算右柯西-格林变形张量$C$**
@@ -231,7 +231,7 @@ $$
 C = (J^{1/3}I)^T (J^{1/3}I) = J^{1/3}J^{1/3} I^T I = J^{2/3}I
 $$
 
-1. $I$ 是单位矩阵，$I^T = I$，且 $I I = I$
+1. $I$ 是单位矩阵， $I^T = I$ ，且 $I I = I$
    （张量规范：单位矩阵保持正体，转置运算符正确标注）
 2. 标量乘法满足交换律，因此 $J^{1/3} J^{1/3} = J^{2/3}$
    （规范修正：标量$J$与张量$I$明确分离，指数采用标准分数形式）
@@ -250,20 +250,20 @@ $$
 
 **总结**
 
-1. 经典剪切项 $\frac{1}{2} \mu (I_1 - 3) - \frac{1}{2} \mu (3J^{2/3} - 3)$ 仍然包含 $J$，表明剪切能与体积变形未解耦。
+1. 经典剪切项 $\frac{1}{2} \mu (I_1 - 3) - \frac{1}{2} \mu (3J^{2/3} - 3)$ 仍然包含 $J$ ，表明剪切能与体积变形未解耦。
 2. 修正项 $-\mu \ln J$ 的作用是抵消这一耦合。
 
 #### 修正项作用：
 
 **推导：​**
 
-当变形为纯体积变形$( \overline{C}=I)$，剪切项和修正项的总和为：
+当变形为纯体积变形 $( \overline{C}=I)$ ，剪切项和修正项的总和为：
 
 $$
 \frac{1}{2}\mu(3J^{2/3} - 3) - \mu\ln J
 $$
 
-展开泰勒级数（$J \longrightarrow 1$）：
+展开泰勒级数（ $J \longrightarrow 1$ ）：
 
 $$
 \begin{aligned}
@@ -279,13 +279,13 @@ $$
 $$
 
 **物理意义：​**
-修正项消除了$J$对剪切能的贡献，使剪切能仅由形状变化（$\overline{C} \neq I$）产生。
+修正项消除了 $J$ 对剪切能的贡献，使剪切能仅由形状变化（ $\overline{C} \neq I$ ）产生。
 
 ---
 
 ## （2）模型2：显式分离等容与体积变形
 
-- ​**显式分离**：通过乘式分解$\mathbf{F = J^{1/3}\bar{F}}$（$\det\mathbf{\bar{F}} = 1$）
+- ​**显式分离**：通过乘式分解 $\mathbf{F = J^{1/3}\bar{F}}$ （ $\det\mathbf{\bar{F}} = 1$ ）
 - ​**张量分解**：
   $$
   \mathbf{C} = J^{2/3}\mathbf{\bar{C}},\quad \mathbf{\bar{C}} = \mathbf{\bar{F}^\top\bar{F}}
@@ -355,7 +355,7 @@ $$
 
 1. 计算 $I_{1} = \operatorname{tr}( \mathbf{C})$
    
-   由 $ \mathbf{C} = J^{2/3}\bar{ \mathbf{C}}$，代入得：
+   由 $ \mathbf{C} = J^{2/3}\bar{ \mathbf{C}}$ ，代入得：
    
    $$
    I_{1} = \operatorname{tr}( \mathbf{C}) = \operatorname{tr}\left(J^{2/3}\bar{ \mathbf{C}}\right) = J^{2/3}\operatorname{tr}(\bar{ \mathbf{C}})
@@ -378,7 +378,7 @@ $$
 
 **物理意义**：
 
-- ​**剪切项**仅依赖等容变形$\bar{ \mathbf{C}}$，与$J$无关。
+- ​**剪切项**仅依赖等容变形 $\bar{ \mathbf{C}}$ ，与 $J$ 无关。
 - ​**体积项**仅依赖$J$，与等容变形无关。
 
 ## 可压缩Neo-Hookean model 模型1的PK2应力推导
@@ -393,9 +393,9 @@ $$
 
 其中：
 
-- $S_{ij}$：第二类Piola-Kirchhoff应力（PK2应力）的分量
-- $W$：应变能密度函数（Strain Energy Density Function）
-- $C_{IJ}$：右Cauchy-Green变形张量的分量，定义为 $C = F^\top F$
+- $S_{ij}$ ：第二类Piola-Kirchhoff应力（PK2应力）的分量
+- $W$ ：应变能密度函数（Strain Energy Density Function）
+- $C_{IJ}$ ：右Cauchy-Green变形张量的分量，定义为 $C = F^\top F$
 
 能量密度 $W$ 的表达式包含 $I_1$ 和 $J$，因此需应用链式法则：
 
