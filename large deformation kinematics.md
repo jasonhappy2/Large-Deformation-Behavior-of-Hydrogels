@@ -178,7 +178,7 @@ $$ W = \frac{1}{2} \mu (I_1 - 3) - \mu \ln J + \frac{1}{2} \lambda \Theta(J)^2 $
 
 # (2) 可压缩 Neo-Hookean 模型 2
 
-$$ W = \frac{1}{2}\mu(J^{-2/3}I_1 - 3) + \frac{1}{2}K\left(\frac{1}{2}J^2 - 1\right) - \ln J $$
+$$ W = \frac{1}{2}\mu(J^{-2/3}I_1 - 3) + \frac{1}{2}K\left(\frac{1}{2}(J^2 - 1)\right) - \ln J $$
 
 ## 等容剪切项 $\frac{1}{2}\mu \left( J^{-2/3}I_1 - 3 \right)$
 
