@@ -178,7 +178,7 @@ $$ W = \frac{1}{2} \mu (I_1 - 3) - \mu \ln J + \frac{1}{2} \lambda \Theta(J)^2 $
 
 # (2) 可压缩 Neo-Hookean 模型 2
 
-$$ W = \frac{1}{2}\mu(J^{-2/3}I_1 - 3) + \frac{1}{2}K\left(\frac{1}{2}(J^2 - 1)\right) - \ln J $$
+$$ W = \frac{1}{2}\mu(J^{-2/3}I_1 - 3) + \frac{1}{2}K\left(\frac{1}{2}(J^2 - 1) - \ln J \right)$$
 
 ## 等容剪切项 $\frac{1}{2}\mu \left( J^{-2/3}I_1 - 3 \right)$
 
@@ -189,7 +189,7 @@ $$ W = \frac{1}{2}\mu(J^{-2/3}I_1 - 3) + \frac{1}{2}K\left(\frac{1}{2}(J^2 - 1)\
    $$
 3. ​**物理意义**：剪切能仅由形状变化（等容变形）贡献，与体积变形无关
 
-## 体积项
+## 体积项 $\frac{1}{2}K\left(\frac{1}{2}(J^2 - 1) - \ln J \right)$
 
 - 仅依赖$J$
 - 参数$K$直接控制体积刚度
